@@ -17,6 +17,7 @@ jobs:
         run: | 
           echo "${{ inputs.id }}"
           ls
+          cat ./README.md
       # - name: Set up Node.js version
       #   uses: actions/setup-node@v3
       #   with:
